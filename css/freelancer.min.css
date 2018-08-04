@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 500;
   font-family: '나눔고딕' 'NanumGothic', 'MalgunGothic' Helvetica, "Apple SD Gothic Neo", sans-serif
 }
 
@@ -35,15 +35,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #14bf68
+  background-color: #FFC0CB
 }
 
 hr.star-dark {
-  border-color: #2c3e50
+  border-color: #FFC0CB
 }
 
 hr.star-dark:after {
-  color: #2c3e50;
+  color: #FFC0CB;
   background-color: #fff
 }
 
@@ -92,7 +92,7 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   font-family: '나눔고딕' 'NanumGothic', 'MalgunGothic' Helvetica, "Apple SD Gothic Neo", sans-serif
 }
 
@@ -145,11 +145,11 @@ section h2 {
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
-    background: #14bf68
+    background: #FFC0CB
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
-    background: #14bf68
+    background: #FFC0CB
   }
   #mainNav.navbar-shrink {
     padding-top: .5rem;
@@ -317,12 +317,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #1978af;
-  color: #fff
+  background-color: #14bf68;
+  color: #14bf68
 }
 
 .copyright {
-  background-color: #1a252f
+  background-color: #14bf68;
 }
 
 a {
@@ -338,11 +338,11 @@ a:active, a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #14bf68 !important
+  background-color: #FFC0CB !important
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important
+  background-color: #14bf68  !important
 }
 
 .text-primary {
@@ -350,7 +350,7 @@ a:active, a:focus, a:hover {
 }
 
 .text-secondary {
-  color: #2c3e50 !important
+  color: #FFC0CB !important
 }
 
 .btn-primary {
@@ -364,11 +364,11 @@ a:active, a:focus, a:hover {
 }
 
 .btn-secondary {
-  background-color: #2c3e50;
+  background-color: #FFC0CB;
   border-color: #2c3e50
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #1a252f;
+  background-color: #FFC0CB;
   border-color: #1a252f
 }
