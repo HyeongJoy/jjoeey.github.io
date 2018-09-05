@@ -1,5 +1,5 @@
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
+# Welcome -
 
-[Joey's webpage](jjoeey.github.io) 
+[Joey's webpage](http://jjoeey.github.io) 
 
 Hello, it's really nice to meet you!
