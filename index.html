@@ -1,257 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Welcome</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Hello</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" 
-        data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-             <li class="nav-item mx-0 mx-lg-1">
-             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#first">IT DESIGNING</a>
-            </li> 
-            <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#second">IT DEVELOPING</a>
-             </li> 
-             <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
-             </li> 
-            </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>KakaoChat</title>
+</head>
+<body>
+    <div id="kakao-wrapper" class="show-kakao-wrapper">
+        <div class="header-button-wrapper">
+            <a class="header-button"></a>
+            <a class="header-button"></a>
+            <a class="header-button"></a>
         </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.jpg" alt="">
-        <h1 class="text-uppercase mb-0">Service Planner and Developer</h1>
-        <hr class="star-light">
-        <h3 class="font-weight-light mb-0"><a href="mailto:seohyung95@naver.com"> MAIL TO ME</a></h3>
-      </div>
-    </header>
-
-     
-    <!-- 기획(first) Section -->
-    <section id="first">
-        <div class="container">
-          <h2 class="text-center text-uppercase text-secondary mb-0">Planning</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">  <video muted src="img\portfolio\MATCH_U.mp4" width="800" height="500"
-                    autoplay controls>
-                    브라우저가 비디오를 지원하지 않습니다.
-                  </video> </a>
+        <div id="logo-img"></div>
+        <div id="login-wrapper">
+            <input class="kakao-login" id="kakao-email" type="text" placeholder="이메일">
+            <input class="kakao-login" id="kakao-pw" type="password" placeholder="비밀번호 (6~12자)">
+            <button id="login-btn" class="disable-login">로그인</button>
         </div>
-      </div>
-    </section>
-
-
-     <!-- 개발(second) Section -->
-     <section class="bg-primary text-white mb-0" id="second">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-white">Developing</h2>
-          <hr class="star-light mb-5">
-          <div class="row">
-            <div class="col-lg-8 mx-auto"> <video muted src="img\portfolio\우산프로젝트.mp4" width="800" height="500"
-                    autoplay controls>
-                    브라우저가 비디오를 지원하지 않습니다.
-                  </video> </a>
-        </div>
-      </div>
-    </section> <!--포트폴리오(portfolio)-->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">PORTFOLIO</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/design.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/programming.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/desktop.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-      <div class="copyright py-4 text-center text-white">
-        <div class="container">
-          <h6>Contact ME <p><a href="mailto:seohyung95@naver.com"> MAIL TO ME</a></h6>
-        </div>
-      </div>
-  
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0">디자인</h2>
-                <hr class="star-dark mb-5">
-                <embed src="PDF\포스터.pdf" width="800px" height="700px" />
-                <p class="mb-5">동아리에서 PPT로 디자인해 만든 포스터와 명찰을 만들었습니다.</p>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  닫기</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0">개발</h2>
-                <hr class="star-dark mb-5">
-                <video muted src="img\portfolio\우산프로젝트.mp4" width="800" height="400"
-            autoplay controls>
-            브라우저가 비디오를 지원하지 않습니다.
-          </video></p>
-                <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-                    <h3>개발 프로젝트 PDF</h3>
-                    </a><div style="DISPLAY: none">
-                <embed src="PDF\우산.pdf" width="800px" height="700px" />
-                    </div>
-                    <p class="mb-5">인턴으로 일했던 루트에너지에서 했던 웹기획이랍니다.</p>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  닫기</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">기획</h2>
-              <hr class="star-dark mb-5">
-              <video muted src="img\portfolio\MATCH_U.mp4" width="800" height="500"
-              autoplay controls>
-              브라우저가 비디오를 지원하지 않습니다.
-            </video>
-          </div>
-        </div>
-
-
-          <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-              <h3>기획 프로젝트_웹기획 PDF</h3>
-              </a><div style="DISPLAY: none">
-          <embed src="PDF\웹기획.pdf" width="800px" height="700px" />
-              </div><p></p>
-
-          <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-              <h3>기획 프로젝트_앱기획 PDF</h3>
-              </a><div style="DISPLAY: none">
-          <embed src="PDF\MATCH_U.pdf" width="800px" height="700px" />
-              </div><p></p>    
-              
-         
-          <p class="mb-5">웹과 앱을 기획한 경험이 있습니다.</p>
-          <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-            <i class="fa fa-close"></i>
-            닫기</a>
-        </div>
-      </div>
+        <p id="login-err">계정 또는 비밀번호를 다시 확인해주세요.</p>
     </div>
-  </div>
-</div>
+    <div id="kakao-chat-wrapper" class="hide-kakao-chat-wrapper">
+        <div class="chat-upper">
+            <div class="header-button-wrapper">
+                <a id="logout-btn" class="header-button"></a>
+                <a class="header-button"></a>
+                <a class="header-button"></a>
+            </div>
+            <img class="user-default-pic" src="./images/default_profile.jpg" alt="">
+            <div class="header-contents">
+                <span id="user-nic"></span>
+                <button id="user-nic-modify">수정</button>
+                <div>
+                    <img class="users-img" src="./images/users.png" alt=""><span id="online-num"></span>
+                </div>
+            </div>
+        </div>
+        <div id="chat-contents-wrapper">
+        </div>
+        <div id="input-chat-wrapper">
+            <textarea name="" id="input-chat"></textarea>
+            <!-- <input id="input-chat" type="text"> -->
+            <button id="text-send" class="disable-text-send">전송</button>
+        </div>
+    </div>
 
-    
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-
-  </body>
-
+    <div id="spinner-warpper">
+        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script src="./firebase.js"></script>
+    <script src="./mainset_skeleton.js"></script>
+    <script src="./main_skeleton.js"></script>
+</body>
 </html>
